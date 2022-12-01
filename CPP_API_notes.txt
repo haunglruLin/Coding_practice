@@ -1,0 +1,13 @@
+
+
+############## Start from here ###################
+
+//// floor & ceil ////
+
+1. floor(x); //return a biggest int with less or equal to x (<=)
+   ex: floor(10.5) = 10
+       floor(-10.5) = -11
+
+2. ceil(x) //return a smallest int with great to x (>)
+   ex: ceil(10.5) = 11
+       ceil(-10.5) = -10
