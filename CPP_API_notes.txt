@@ -11,3 +11,12 @@
 2. ceil(x) //return a smallest int with great to x (>)
    ex: ceil(10.5) = 11
        ceil(-10.5) = -10
+
+
+//// lower_bound & upper_bound ////
+usage : use the binary search in a sorted vector to find out the index
+
+1.lower_bound : find out the index of smallest >= val in the vector
+   auto it = lower_bound(v.begin(), v.end(), val);
+2. uppper_bound = : find out the closest index of a smallest > val
+   auto it = uppper_bound(v.begin(), v.end(), val);
